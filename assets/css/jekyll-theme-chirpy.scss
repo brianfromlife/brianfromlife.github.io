@@ -1,4 +1,14 @@
-@import 'main';
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
 
 body {
   background-color: #f0f0f0 !important; /* Example: Change background color */
