@@ -1,0 +1,12 @@
+@import 'main';
+
+body {
+  background-color: #f0f0f0 !important; /* Example: Change background color */
+  color: #333 !important; /* Example: Change text color */
+}
+
+/* Example for dark mode */
+body[data-theme='dark'] {
+  background-color: #d02323;
+  color: #eee;
+}
